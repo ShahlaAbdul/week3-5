@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+#navbar-part .navbar {
+  background-repeat: no-repeat;
+  max-width: 100%;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000 100%), url("https://startbootstrap.github.io/startbootstrap-grayscale/assets/img/bg-masthead.jpg");
+  min-height: 100vh;
+  font-family: "Montserrat", sans-serif;
+}
+#navbar-part .navbar .center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  min-height: 80vh;
+}
+#navbar-part .navbar .center .gracesale {
+  background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0));
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  font-size: 60px;
+}
+#navbar-part .navbar .center p {
+  color: rgb(146, 141, 141);
+  padding: 20px;
+}
+#navbar-part .navbar .center button {
+  width: 200px;
+  height: 70px;
+  background-color: rgb(88, 167, 140);
+}
+#navbar-part .navbar .head {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 60%;
+  font-size: 20px;
+  margin-top: 0px;
+  color: white;
+}
+#navbar-part .navbar .head p, #navbar-part .navbar .head ul {
+  display: flex;
+  gap: 40px;
+  margin-top: 30px;
+}
+#navbar-part .navbar .image {
+  width: 100%;
+  height: 700px;
+}
+#navbar-part .navbar .image .image_cover {
+  width: 100%;
+}
+
+#main_page .mainpage {
+  max-width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background: linear-gradient(to bottom, #000 0%, rgba(0, 0, 0, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%);
+}
+#main_page .mainpage .text {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  max-width: 40%;
+  align-items: center;
+  justify-content: center;
+  width: fit-content;
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 2px;
+  margin: 20px;
+}
+#main_page .mainpage .image_page {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#main_page .mainpage .image_page img {
+  width: 75rem;
+  height: auto;
+}/*# sourceMappingURL=main.css.map */

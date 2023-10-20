@@ -1,0 +1,82 @@
+@import "./base/reset";
+@import "./layout/navigation";
+@import "./layout/footer";
+@import "./pages/home";
+
+
+
+
+
+
+
+// @mixin theme($theme: rgb(85, 16, 16), ) {
+//     width: 200px;
+//     height: 60px;
+//     margin-top: 10px;
+//     border-radius: 10px;
+//     background: $theme;
+//     box-shadow: 0 0 1px rgba($theme, .25);
+//     color: #fff;
+//     display: flex;
+//     justify-content: center; 
+//     align-items: center;
+
+//     & :hover {
+//         opacity:  0.8;
+//         cursor:pointer;
+//     }
+
+// }
+
+
+//     .box1 {
+//         @include theme($theme: rgb(62, 121, 155));
+
+
+//       }
+//       .box2 {
+//         @include theme($theme: rgb(144, 162, 172));
+
+//       }
+//       .box3 {
+//         @include theme($theme: rgb(95, 151, 148));
+
+//       }
+
+
+// /* This CSS will print because %message-shared is extended. */
+// %message-shared {
+//     background: rgb(2,0,36);
+// background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(97,28,116,1) 35%, rgba(0,212,255,1) 100%);
+
+//     border: 1px solid #ccc;
+//     padding: 10px;
+//     color: #ac4141;
+//   }
+
+//   body{
+//     background: rgb(0,212,255);
+//     background: linear-gradient(90deg, rgba(0,212,255,1) 0%, rgba(147,180,208,1) 8%, rgba(2,0,36,1) 93%);
+//   }
+
+
+//   }
+//   // This CSS won't print because %equal-heights is never extended.
+//   %equal-heights {
+//     display: flex;
+//     flex-wrap: wrap;
+//   }
+
+//   .info {
+//     @extend %message-shared;
+//   }
+
+//   .success {
+//     @extend %message-shared;
+//     border-color: green;
+//   }
+
+//   .alert {
+//     @extend %message-shared;
+//     border-color: red;
+//   }
